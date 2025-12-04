@@ -168,3 +168,36 @@ section a, section button {
     height: 120px;
   }
 }
+.header-container {
+  display: flex;            /* aligns photo and text side by side */
+  align-items: center;      /* vertically centers photo and text */
+  gap: 20px;                /* space between photo and text */
+  padding: 20px;            /* space around header */
+}
+
+.profile-photo {
+  width: 150px;             /* size of the photo */
+  height: 150px;
+  border-radius: 50%;       /* makes it circular */
+  object-fit: cover;        /* crops nicely */
+  border: 3px solid #1E4E8C; /* optional border color */
+  display: block;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header-text p {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+/* mobile responsiveness */
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;   /* photo on top, text below */
+    text-align: center;
+  }
+}
