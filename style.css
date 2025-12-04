@@ -222,4 +222,25 @@ section a, section button {
 @media (max-width: 600px) {
   .header-container { flex-direction: column; text-align: center; }
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1E4E8C;
+}
+
+.header-text h1 { margin: 0; font-size: 2rem; }
+.header-text p { margin: 5px 0 0 0; color: #555; }
+
+@media (max-width: 600px) {
+  .header-container { flex-direction: column; text-align: center; }
+}
 
