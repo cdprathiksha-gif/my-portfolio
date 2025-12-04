@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+  <personal>
+    <name>K M Ranjitha</name>
+    <email>kmranjitha8971@gmail.com</email>
+  </personal>
+  <skills>
+    <skill name="HTML" level="90%"/>
+    <skill name="CSS" level="85%"/>
+    <skill name="JavaScript" level="80%"/>
+    <skill name="PHP" level="70%"/>
+  </skills>
+  <education>
+    <degree>Bachelor of Engineering</degree>
+    <college>Malnad College of Engineering</college>
+    <year>2025-2027</year>
+  </education>
+  <certifications>
+    <cert>AWS Cloud Foundation & AWS Solution Architect</cert>
+    <cert>Titan Design Impact Movement</cert>
+  </certifications>
+</resume>
